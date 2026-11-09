@@ -70,6 +70,7 @@ export default function App() {
         descripcion="Revisión de conceptos y tipos de delitos informáticos." 
       />
       <ActividadItem 
+      
         titulo="Buscaran en el internet imágenes de delitos informáticos" 
         tiempo="25 minutos" 
         tipo="Aplicación" 
