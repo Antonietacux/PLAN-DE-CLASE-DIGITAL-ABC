@@ -47,7 +47,7 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
           <motion.div
             key={currentStep}
             initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
+            animate={{ opacity: 2, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ type: "spring", stiffness: 300, damping: 25 }}
           >
@@ -77,8 +77,8 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
                     textAlign: "left",
                     padding: "12px 16px",
                     borderRadius: "8px",
-                    border: selectedOption === index ? "2px solid #4f46e5" : "1px solid #d1d5db",
-                    backgroundColor: selectedOption === index ? "#eef2ff" : "#ffffff",
+                    border: selectedOption === index ? "2px solid #070435" : "1px solid #5f96e9",
+                    backgroundColor: selectedOption === index ? "#98a5cf" : "#ffffff",
                     color: selectedOption === index ? "#312e81" : "#374151",
                     fontWeight: "500",
                     fontSize: "0.95rem",
@@ -102,7 +102,7 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
                   fontWeight: "600",
                   fontSize: "0.9rem",
                   color: "#ffffff",
-                  backgroundColor: selectedOption === null ? "#9ca3af" : "#0f4c81",
+                  backgroundColor: selectedOption === null ? "#9ca3af" : "#195a92",
                   border: "none",
                   cursor: selectedOption === null ? "not-allowed" : "pointer",
                   boxShadow: selectedOption === null ? "none" : "0 2px 4px rgba(0,0,0,0.1)"
@@ -121,11 +121,12 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
             transition={{ type: "spring", stiffness: 250, damping: 20 }}
             style={{ textAlign: "center", padding: "20px 0" }}
           >
-            <div style={{ width: "50px", height: "50px", backgroundColor: "#d1fae5", color: "#059669", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 15px auto", fontSize: "1.5rem", fontWeight: "bold" }}>
+            <div style={{ width: "50px", height: "50px", backgroundColor: "#dbccae", color: "#059669", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 15px auto",
+               fontSize: "1.5rem", fontWeight: "bold" }}>
               ✓
             </div>
-            <h4 style={{ fontSize: "1.25rem", fontWeight: "bold", color: "#1f2937", marginBottom: "8px" }}>¡Evaluación completada!</h4>
-            <p style={{ color: "#4b5563", marginBottom: "20px", fontSize: "0.95rem" }}>
+            <h4 style={{ fontSize: "2.5rem", fontWeight: "bold", color: "#101f38", marginBottom: "8px" }}>¡Evaluación completada!</h4>
+            <p style={{ color: "#0e2953", marginBottom: "20px", fontSize: "0.95rem" }}>
               Tu puntaje final es de <span style={{ fontWeight: "bold", color: "#0f4c81" }}>{score}</span> sobre {preguntaData.length}.
             </p>
             <button
@@ -136,10 +137,10 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
                 setIsCompleted(false);
               }}
               style={{
-                padding: "8px 16px",
-                backgroundColor: "#f3f4f6",
-                color: "#374151",
-                border: "1px solid #d1d5db",
+                padding: "10px 16px",
+                backgroundColor: "#2b57af",
+                color: "#eaedf3",
+                border: "1px solid #e3e6eb",
                 borderRadius: "8px",
                 fontWeight: "500",
                 cursor: "pointer"

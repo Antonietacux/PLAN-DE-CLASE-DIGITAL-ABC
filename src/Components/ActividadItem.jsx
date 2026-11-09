@@ -22,22 +22,22 @@ export default function ActividadItem({ titulo, tiempo }) {
         >
             <span style={{ 
                 textDecoration: completada ? 'line-through' : 'none',
-                color: completada ? '#2e7d32' : '#334155',
+                color: completada ? '#146618' : '#334155',
                 fontWeight: completada ? 'normal' : '600'
             }}>
                 {titulo} ({tiempo})
             </span>
 
             <motion.button 
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.9 }}
+                whileHover={{ scale: 2.05 }}
+                whileTap={{ scale: 1.98 }}
                 onClick={() => setCompletada(!completada)}
                 style={{
-                    background: completada ? '#2e7d32' : '#0f4c81',
+                    background: completada ? '#1a8a20' : '#0f4c81',
                     color: 'white',
                     border: 'none',
                     padding: '6px 12px',
-                    borderRadius: '4px',
+                    borderRadius: '7px',
                     cursor: 'pointer',
                     fontSize: '0.85em'
                 }}
