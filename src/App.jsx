@@ -33,12 +33,12 @@ export default function App() {
       
       {/* 1. Institución y Título General */}
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
-        <p style={{ color: "#333", fontSize: "0.95rem", fontWeight: "600", margin: "0 0 5px 0" }}>
+        <p style={{ color: "#f5f0f0", fontSize: "0.95rem", fontWeight: "900", margin: "0 0 5px 0" }}>
           Instituto Nacional de Educación Básica Telesecundaria
           <br />
           Aldea Panabajal, San Juan Comalapa
         </p>
-        <h3 style={{ color: "#0f4c81", margin: "10px 0 0 0" }}>📋 PLAN DE CLASE DIGITAL</h3>
+        <h3 style={{ color: "#e4e7eb", margin: "10px 0 0 0" }}>📋 PLAN DE CLASE DIGITAL</h3>
       </div>
 
       {/* 2. Encabezado Animado del Tema */}
@@ -55,7 +55,7 @@ export default function App() {
       />
 
       {/* 4. Lista de Actividades de la Sesión */}
-      <h3 style={{ color: "#0f4c81", marginTop: "25px" }}>Secuencia Didáctica de la Clase</h3>
+      <h2 style={{ color: "#eaeef1", marginTop: "25px" }}>Secuencia Didáctica de la Clase</h2>
 
       <ActividadItem 
         titulo="DIAGNÓSTICO. Actividad inicial: ¿Qué es un delito informático? Ingresan al enlace de Padlet." 
@@ -70,19 +70,19 @@ export default function App() {
         descripcion="Revisión de conceptos y tipos de delitos informáticos." 
       />
       <ActividadItem 
-        titulo="Buscar en el internet imágenes de delitos informáticos" 
+        titulo="Buscaran en el internet imágenes de delitos informáticos" 
         tiempo="25 minutos" 
         tipo="Aplicación" 
         descripcion="Elaboración de una infografía digital basada en la investigación." 
       />
 
       {/* 5. Evaluación Formativa Interactiva (Cierre) */}
-      <h3 style={{ color: "#0f4c81", marginTop: "25px" }}>Evaluación Formativa de Cierre</h3>
+      <h3 style={{ color: "#f0f3f7", marginTop: "25px" }}>Evaluación Formativa de Cierre</h3>
       <EvaluacionForm 
         preguntaData={preguntasDelitos} 
         onFinalizar={(notaFinal) => {
           console.log("Nota final del estudiante:", notaFinal);
-        }} 
+        }}
       />
 
     </div>
