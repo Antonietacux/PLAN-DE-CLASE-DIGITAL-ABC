@@ -121,7 +121,8 @@ export default function EvaluacionForm({ preguntaData, onFinalizar }) {
             transition={{ type: "spring", stiffness: 250, damping: 20 }}
             style={{ textAlign: "center", padding: "20px 0" }}
           >
-            <div style={{ width: "50px", height: "50px", backgroundColor: "#dbccae", color: "#059669", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 15px auto",
+            <div style={{ width: "50px", height: "50px", backgroundColor: "#dbccae",
+             color: "#059669", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 15px auto",
                fontSize: "1.5rem", fontWeight: "bold" }}>
               ✓
             </div>

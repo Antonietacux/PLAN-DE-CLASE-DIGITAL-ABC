@@ -9,20 +9,20 @@ export default function App() {
     {
       pregunta: "¿Cuál de los siguientes ejemplos se considera un delito informático o ciberdelito?",
       opciones: [
-        "Apagar la computadora correctamente al finalizar la clase",
+        "Apagar la computadora de un compañero de manera repentina",
         "El robo de identidad o suplantación de perfil en redes sociales",
         "Descargar una imagen de dominio público para una tarea",
-        "Actualizar el sistema operativo de la tableta"
+        "Actualizar el sistema operativo sin permiso de la tableta"
       ],
       correcta: 1
     },
     {
       pregunta: "¿Qué acción digital responsable debemos tomar al navegar en internet?",
       opciones: [
-        "Compartir nuestras contraseñas con cualquier compañero",
-        "Ignorar las advertencias de seguridad de los sitios web",
+        "Compartir nuestras contraseñas con nuestro mejor amigo",
+        "Ignorar las advertencias de seguridad de los sitios web que nos dan nuestros amigos",
         "Verificar fuentes confiables y proteger nuestra información personal",
-        "Hacer clic en enlaces sospechosos que prometen premios"
+        "Hacer clic en enlaces sospechosos que prometen premios y sorpresas"
       ],
       correcta: 2
     }
