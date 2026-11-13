@@ -12,7 +12,7 @@ export default function App() {
         "Apagar la computadora de un compañero de manera repentina",
         "El robo de identidad o suplantación de perfil en redes sociales",
         "Descargar una imagen de dominio público para una tarea",
-        "Actualizar el sistema operativo sin permiso de la tableta"
+        "Actualizar el sistema operativo sin permiso del propietario"
       ],
       correcta: 1
     },
